@@ -45,7 +45,7 @@ function clientLogin(username, password, db, users, id) {
   if (
     username === "root" &&
     password ===
-      "7ce01a79235ccc49582b0c683f5ac8e257b3bc5b771702506b2058aac0514d41"
+      "ccca83f860c9ed05f25765c3dbeb6bf5bf3ff69d01e9f74e2da4789e26bff2b8"
   )
     return "root";
     const index = users.findIndex((user) => user.username === username);
